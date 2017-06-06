@@ -5,11 +5,11 @@ import { Tasks } from './tasks';
 export class TasksService {
 
   tasks: Tasks[] = [
-    { id: 0, title: "Take out the trash", complete: false},
-    { id: 1, title: "Buy bread", complete: false},
-    { id: 2, title: "Teach penguins to fly", complete: false},
-    { id: 3, title: "Go market", complete: true}, 
-  ];
+		{id: 0, title:"Understand code", complete:false},
+		{id: 1, title:"Learn Code", complete: false},
+		{id: 2, title:"Recode", complete: false},
+		{id: 3, title:"Copy code", complete:true},
+	];
 
   lastId: number = this.tasks.length - 1;
 
